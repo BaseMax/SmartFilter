@@ -10,13 +10,12 @@
 *
 **/
 ?>
-<!-- <?php
+<?php
 if(isset($_POST['submit'])) {
 	$input=$_POST['input'];
 }
 else {
 ?>
- -->
 <form action="" method="POST">
 	<div>
 		<h3>Input #0</h3>
@@ -143,4 +142,4 @@ else {
 	<hr>
 	<button>Check</button>
 </form>
-<!-- <?php } ?> -->
+<?php } ?>
