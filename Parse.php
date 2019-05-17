@@ -117,6 +117,30 @@ else {
 		<br>
 	</div>
 	<hr>
+	<div>
+		<h3>Filter #5</h3>
+		<input id="case_line_none" type="radio" name="case_line" value="none" checked="true">
+		<label for="case_line_none">
+			Not Change the case of the character's from the line
+		</label>
+		<br>
+		<input id="case_line_upper" type="radio" name="case_line" value="upper">
+		<label for="case_line_upper">
+			Make UpperCase the character's from the line
+		</label>
+		<br>
+		<input id="case_line_lower" type="radio" name="case_line" value="low">
+		<label for="case_line_lower">
+			Make LowerCase the character's from the line
+		</label>
+		<br>
+		<input id="case_line_upper_first" type="radio" name="case_line" value="upper_first">
+		<label for="case_line_upper_first">
+			Make UpperCase The First char of the words from the line
+		</label>
+		<br>
+	</div>
+	<hr>
 	<button>Check</button>
 </form>
 <!-- <?php } ?> -->
